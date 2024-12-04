@@ -26,7 +26,7 @@ jobs:
 
     # Step 3: Build and Test with Maven
     - name: Build and run tests
-      run: mvn -B verify --file pom.xml
+      run: mvn -B verify --file "21L-5386 Assignment 2/Assignment 2/pom.xml"
 
     # Step 4: Optional: Upload dependency graph for security insights
     - name: Update dependency graph
